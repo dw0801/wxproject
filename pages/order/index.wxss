@@ -1,0 +1,27 @@
+view.order_main view.order_item {
+  padding: 20rpx;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  color: #666;
+}
+view.order_main view.order_item view.order_no_row {
+  padding: 5rpx;
+  display: flex;
+  justify-content: space-between;
+}
+view.order_main view.order_item view.order_price_row {
+  padding: 5rpx;
+  display: flex;
+  justify-content: space-between;
+}
+view.order_main view.order_item view.order_price_row view.order_price_vaule {
+  color: var(--themeColor);
+  font-weight: 400;
+  font-size: 32rpx;
+}
+view.order_main view.order_item view.order_time_row {
+  padding: 5rpx;
+  display: flex;
+  justify-content: space-between;
+}

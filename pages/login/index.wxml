@@ -1,0 +1,5 @@
+<view>
+  <button wx:if="{{canIUseGetUserProfile}}" type="primary" plain bindtap="getUserProfile">
+    获取头像昵称
+  </button>
+</view>

@@ -1,0 +1,28 @@
+page {
+  background-color: var(--themebgc);
+  padding: 20rpx;
+}
+.serch_row {
+  height: 60rpx;
+  display: flex;
+}
+.serch_row input {
+  background-color: #fff;
+  flex: 1;
+  height: 100%;
+}
+.serch_row button {
+  width: 110rpx ;
+}
+.serch_content {
+  margin-top: 20rpx;
+}
+.serch_content .search_item {
+  background-color: #fff;
+  font-size: 26rpx;
+  padding: 15rpx 10rpx;
+  border-bottom: 1rpx solid #ccc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

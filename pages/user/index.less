@@ -1,0 +1,107 @@
+page {
+  background-color: var(--themebgc);
+}
+.user_info_warp{
+  height: 45vh;
+  background-color: var(--themebgc);
+  .user_img_wrap{
+    position: relative;
+    .user_bg{
+      height: 45vh;
+      filter: blur(10rpx);
+    }
+    .user_info{
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 30%;
+      text-align: center;
+      .user_icon{
+        width: 150rpx;
+        height: 150rpx;
+        border-radius: 50%;
+      }
+      .user_name{
+        margin-top: 20rpx;
+        font-size: 30rpx;
+        color: #fff;
+      }
+    }
+  }
+  .user_btn{
+  padding-top: 18vh;
+   button{
+    border-radius: 50rpx;
+   }
+  }
+}
+
+.user_content{
+  position: relative;
+  .user_main{
+    color: #666;
+    position: absolute;
+    width: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    top: -40rpx;
+  
+    .history_warp{
+      display: flex;
+      background-color: #fff;
+      navigator{
+        padding: 10rpx 0;
+        flex: 1;
+        text-align: center;
+        .his_num{}
+        .his_name{}
+      }
+    }
+    .order_warp{
+      margin-top: 15rpx;
+      .order_title{
+        padding: 15rpx;
+        background-color: #fff;
+      }
+      .order_content{
+        display: flex;
+        text-align: center;
+        padding: 10rpx;
+        margin-top: 5rpx;
+        background-color: #fff;
+        navigator{
+          flex: 1;
+          .iconfont{
+            color: var(--themeColor);
+          }
+          .order_name{}
+        }
+       
+      }
+    }
+    .address_wrap{
+      margin-top: 20rpx;
+      padding: 15rpx;
+      background-color: #fff;
+    }
+    .app_info_wrap{   
+      margin-top: 15rpx;
+      .app_info_item{
+        margin-top: 5rpx;
+        padding: 15rpx;
+        background-color: #fff;
+      }
+      .app_info_contact{
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+    .recommend_wrap{
+      margin-top: 20rpx;
+      margin-bottom: 50rpx;
+      padding: 15rpx;
+      background-color: #fff;
+    }
+  }
+}
